@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+.page{
+    /* background-image: linear-gradient(to bottom, #FFD400, #FFDD3C, #FFEA61, #FFF192, #f5eaa5); */
+
+    /* Created with https://www.css-gradient.com */
+    background: #E57601;
+    background: -webkit-linear-gradient(top, #E57601, #FFDD6A);
+    background: -moz-linear-gradient(top, #E57601, #FFDD6A);
+    background: linear-gradient(to bottom, #E57601, #FFDD6A);
+    /* margin: 0;
+    padding: 0; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+h1{
+    /* color: rgb(73, 68, 1); */
+    color: black;
+    font-size: 70px;
+}
+
+.my{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.my-jollof{
+    height: 100%;
+    background-image: url('../Images/jollof3.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+}
+
+.button-design{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: orange;
+    margin-top: 10px;
+}
